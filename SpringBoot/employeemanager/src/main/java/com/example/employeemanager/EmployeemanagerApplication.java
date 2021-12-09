@@ -7,13 +7,15 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+import java.util.Arrays;
+
 @SpringBootApplication
 public class EmployeemanagerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeemanagerApplication.class, args);
 	}
-	
+
 	@Bean
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
