@@ -1,4 +1,4 @@
-# EmployeeManagementCRUD
+# Employee Management CRUD
 ### This is a simple CRUD application which is developed using "Angular, Spring Boot & PostgreSQL" with the help of REST API.
 The functionalities of this project are:
 1. Show All Employee Information (ORDER BY ASC)
